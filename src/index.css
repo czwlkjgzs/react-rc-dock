@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dock-layout {
+  @apply bg-gray-100;
+}
+
+.dock-panel {
+  @apply rounded-lg overflow-hidden border border-gray-200;
+}
+
+.dock-tab {
+  @apply bg-gray-50 hover:bg-gray-100;
+}
+
+.dock-tab-active {
+  @apply bg-white;
+}
+
+.dock-divider {
+  @apply bg-gray-200;
+}
+
+.dock-panel-drag-size {
+  @apply w-2 h-2;
+}
